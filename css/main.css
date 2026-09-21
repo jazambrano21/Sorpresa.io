@@ -58,6 +58,17 @@ body {
   transform: scale(0.9);
 }
 
+@media screen and (max-width: 600px) {
+  .flower-message {
+    width: 94vw;
+    font-size: 1.25rem;
+  }
+
+  .flowers {
+    transform: scale(1.08);
+  }
+}
+
 .flower {
   position: absolute;
   bottom: 10vmin;
